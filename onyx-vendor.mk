@@ -1045,8 +1045,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_36_02_0b_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_xiaomi_o10u_42_02_0a_video_mode_dsc_dsi_panel.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/init.panel_info.sh:$(TARGET_COPY_OUT_ODM)/etc/init.panel_info.sh \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.security.keymint-service.strongbox.nxp.rc \
-    vendor/xiaomi/onyx/proprietary/odm/etc/init/android.hardware.weaver-service.nxp.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.weaver-service.nxp.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.awinic.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.awinic.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.boled.lightsensor.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.boled.lightsensor.rc \
     vendor/xiaomi/onyx/proprietary/odm/etc/init/init.cirrus.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.cirrus.rc \
@@ -1058,7 +1056,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onyx/proprietary/odm/etc/mdss_dsi_o10u_36_02_0b_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o10u_36_02_0b_dsc_vid_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_o10u_42_02_0a_dsc_vid_mi.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
-    vendor/xiaomi/onyx/proprietary/odm/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.hardware_keystore.jc-strongbox-keymint.nxp.xml \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/ak7323.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/ak7323.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/bonito_qsh_ble_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/bonito_qsh_ble_0.json \
     vendor/xiaomi/onyx/proprietary/odm/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_ODM)/etc/sensors/config/chre_dynamic_sensors.json \
@@ -1974,7 +1971,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
     android.hardware.bluetooth.audio-impl_prebuilt \
-    android.hardware.security.keymint-V3-ndk_prebuilt \
     android.media.audio.common.types-V6-ndk \
     btaudio_offload_if \
     com.mi.node.fd \
@@ -2384,7 +2380,6 @@ PRODUCT_PACKAGES += \
     libcommonchiutils \
     libconfigdb \
     libcpion \
-    libcppbor_onyx \
     libcv_common \
     libdataitems \
     libdeflicker \
@@ -3262,7 +3257,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.zsl.nightmotionzslbanding \
     com.xiaomi.zsl.single \
     com.xiaomi.zsl.sr \
-    ese_weaver \
     consumerir.qcom \
     displayfeature.default \
     fingerprint.goodix_fod.default \
@@ -3306,11 +3300,6 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libhandgesture.arcsoft \
     libhistprocess \
-    libjc_keymint-nxp \
-    libjc_keymint_transport_nxp \
-    libkeymint_empty-nxp \
-    libkeymint_empty-thales \
-    libkeymint_transport_empty-nxp \
     libmi-stc-HW-modulate \
     libmiBrightness \
     libmiClstc \
@@ -3353,8 +3342,6 @@ PRODUCT_PACKAGES += \
     libtruetone \
     libvideomode \
     libwa_widelens_undistort \
-    libweaver_empty-nxp \
-    libweaver_empty-thales \
     libwvkeybox \
     libxmi_slow_motion_mein \
     sensors.touch.detect \
@@ -3482,9 +3469,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.quickcamera.xml \
     vendor.qti.qccsyshal_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
-    android.hardware.security.keymint-service.strongbox.xml \
-    android.hardware.security.sharedsecret-service.strongbox.xml \
-    android.hardware.weaver-service.nxp.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
     misensor_camera.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
@@ -3598,8 +3582,6 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     qccsyshal_aidl-service \
     wfdservice64 \
-    android.hardware.security.keymint-service.strongbox-nxp \
-    android.hardware.weaver-service.nxp-qti \
     misensor_camera \
     vendor.xiaomi.hw.touchfeature-service \
     vendor.xiaomi.sensor.citsensorservice.aidl \
