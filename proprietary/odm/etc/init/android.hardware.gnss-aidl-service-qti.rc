@@ -1,4 +1,7 @@
-service gnss_service /vendor/bin/hw/android.hardware.gnss-aidl-service-qti
+# MIUI MOD: GPS_GpsRemove
+# service gnss_service /vendor/bin/hw/android.hardware.gnss-aidl-service-qti
+service gnss_service /vendor/odm/bin/hw/android.hardware.gnss-aidl-service-qti
+# END GPS_GpsRemove
     interface aidl android.hardware.gnss.IGnss/default
     interface aidl vendor.qti.gnss.ILocAidlGnss/default
     class hal
