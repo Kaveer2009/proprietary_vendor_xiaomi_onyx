@@ -2961,7 +2961,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
     vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
-    vendor.xiaomi.hardware.micharge-V2-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
     vendor.xiaomi.hw.touchfeature-V1-ndk \
     vendor.xiaomi.sensor.camera-V1-ndk \
